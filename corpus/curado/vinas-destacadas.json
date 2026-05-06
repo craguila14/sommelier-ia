@@ -1,0 +1,447 @@
+[
+  {
+    "id": "concha-y-toro",
+    "nombre": "Viña Concha y Toro",
+    "fundacion": 1883,
+    "ubicacion_principal": "Pirque, Valle del Maipo",
+    "valles_donde_produce": ["Maipo", "Casablanca", "Colchagua", "Limarí", "Cachapoal", "Maule"],
+    "lineas_principales": [
+      {
+        "linea": "Frontera",
+        "rango_precio": "muy bajo",
+        "rango_precio_clp": "2000-4000"
+      },
+      {
+        "linea": "Casillero del Diablo",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "4000-8000"
+      },
+      {
+        "linea": "Marqués de Casa Concha",
+        "rango_precio": "medio",
+        "rango_precio_clp": "12000-20000"
+      },
+      {
+        "linea": "Don Melchor",
+        "rango_precio": "premium",
+        "rango_precio_clp": "60000-120000"
+      }
+    ],
+    "vino_emblema": "Don Melchor (Cabernet Sauvignon)",
+    "descripcion": "La viña más grande de Chile y una de las más exportadoras del mundo. Pionera en posicionar el vino chileno globalmente."
+  },
+  {
+    "id": "santa-rita",
+    "nombre": "Viña Santa Rita",
+    "fundacion": 1880,
+    "ubicacion_principal": "Alto Jahuel, Valle del Maipo",
+    "valles_donde_produce": ["Maipo", "Casablanca", "Colchagua", "Limarí"],
+    "lineas_principales": [
+      {
+        "linea": "120",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "3500-6000"
+      },
+      {
+        "linea": "Reserva",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "6000-12000"
+      },
+      {
+        "linea": "Medalla Real",
+        "rango_precio": "medio",
+        "rango_precio_clp": "12000-22000"
+      },
+      {
+        "linea": "Casa Real",
+        "rango_precio": "premium",
+        "rango_precio_clp": "40000-80000"
+      }
+    ],
+    "vino_emblema": "Casa Real (Cabernet Sauvignon)",
+    "descripcion": "Viña histórica con gran tradición. Su línea '120' es ícono popular y referente del vino chileno cotidiano."
+  },
+  {
+    "id": "cousino-macul",
+    "nombre": "Viña Cousiño Macul",
+    "fundacion": 1856,
+    "ubicacion_principal": "Peñalolén / Buin, Valle del Maipo",
+    "valles_donde_produce": ["Maipo"],
+    "lineas_principales": [
+      {
+        "linea": "Doña Isidora",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "5000-10000"
+      },
+      {
+        "linea": "Antiguas Reservas",
+        "rango_precio": "medio",
+        "rango_precio_clp": "10000-18000"
+      },
+      {
+        "linea": "Finis Terrae",
+        "rango_precio": "medio-alto",
+        "rango_precio_clp": "20000-35000"
+      },
+      {
+        "linea": "Lota",
+        "rango_precio": "premium",
+        "rango_precio_clp": "60000-100000"
+      }
+    ],
+    "vino_emblema": "Lota (mezcla bordelesa)",
+    "descripcion": "Una de las viñas más antiguas de Chile, mantenida por la misma familia. Símbolo del Cabernet del Maipo Alto."
+  },
+  {
+    "id": "errazuriz",
+    "nombre": "Viña Errázuriz",
+    "fundacion": 1870,
+    "ubicacion_principal": "Panquehue, Valle de Aconcagua",
+    "valles_donde_produce": ["Aconcagua", "Casablanca", "Aconcagua Costa"],
+    "lineas_principales": [
+      {
+        "linea": "Estate Series",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "5000-10000"
+      },
+      {
+        "linea": "Max Reserva",
+        "rango_precio": "medio",
+        "rango_precio_clp": "10000-18000"
+      },
+      {
+        "linea": "Aconcagua Alto",
+        "rango_precio": "medio-alto",
+        "rango_precio_clp": "25000-45000"
+      },
+      {
+        "linea": "Don Maximiano",
+        "rango_precio": "premium",
+        "rango_precio_clp": "70000-150000"
+      },
+      {
+        "linea": "Viñedo Chadwick",
+        "rango_precio": "íconico",
+        "rango_precio_clp": "150000-300000"
+      }
+    ],
+    "vino_emblema": "Viñedo Chadwick (Cabernet Sauvignon)",
+    "descripcion": "Famosa por la 'Cata de Berlín' (2004) donde sus vinos superaron a grandes etiquetas francesas. Referente mundial del Cabernet chileno."
+  },
+  {
+    "id": "montes",
+    "nombre": "Viña Montes",
+    "fundacion": 1988,
+    "ubicacion_principal": "Apalta, Valle de Colchagua",
+    "valles_donde_produce": ["Colchagua", "Casablanca", "Marchigüe", "Aconcagua"],
+    "lineas_principales": [
+      {
+        "linea": "Classic",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "4000-7000"
+      },
+      {
+        "linea": "Limited Selection",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "7000-12000"
+      },
+      {
+        "linea": "Alpha",
+        "rango_precio": "medio",
+        "rango_precio_clp": "12000-20000"
+      },
+      {
+        "linea": "Alpha M",
+        "rango_precio": "premium",
+        "rango_precio_clp": "60000-100000"
+      },
+      {
+        "linea": "Folly",
+        "rango_precio": "premium",
+        "rango_precio_clp": "60000-100000"
+      }
+    ],
+    "vino_emblema": "Alpha M (mezcla bordelesa)",
+    "descripcion": "Pionera en valorar Apalta como gran terroir. Sus vinos premium son referentes mundiales y muy bien evaluados internacionalmente."
+  },
+  {
+    "id": "viu-manent",
+    "nombre": "Viu Manent",
+    "fundacion": 1935,
+    "ubicacion_principal": "Cunaco, Valle de Colchagua",
+    "valles_donde_produce": ["Colchagua"],
+    "lineas_principales": [
+      {
+        "linea": "Estate Collection",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "5000-9000"
+      },
+      {
+        "linea": "Reserva",
+        "rango_precio": "medio",
+        "rango_precio_clp": "8000-14000"
+      },
+      {
+        "linea": "Single Vineyard",
+        "rango_precio": "medio-alto",
+        "rango_precio_clp": "15000-25000"
+      },
+      {
+        "linea": "Viu 1",
+        "rango_precio": "premium",
+        "rango_precio_clp": "70000-120000"
+      }
+    ],
+    "vino_emblema": "Viu 1 (Malbec)",
+    "descripcion": "Viña familiar con foco fuerte en Malbec y Carménère. Famosa también por su enoturismo en Colchagua."
+  },
+  {
+    "id": "casa-lapostolle",
+    "nombre": "Casa Lapostolle",
+    "fundacion": 1994,
+    "ubicacion_principal": "Apalta, Valle de Colchagua",
+    "valles_donde_produce": ["Colchagua", "Casablanca", "Cachapoal"],
+    "lineas_principales": [
+      {
+        "linea": "Casa",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "5000-9000"
+      },
+      {
+        "linea": "Cuvée Alexandre",
+        "rango_precio": "medio-alto",
+        "rango_precio_clp": "20000-35000"
+      },
+      {
+        "linea": "Borobo",
+        "rango_precio": "premium",
+        "rango_precio_clp": "50000-90000"
+      },
+      {
+        "linea": "Clos Apalta",
+        "rango_precio": "íconico",
+        "rango_precio_clp": "100000-200000"
+      }
+    ],
+    "vino_emblema": "Clos Apalta",
+    "descripcion": "Fundada por la familia Marnier-Lapostolle (Grand Marnier). Su vino Clos Apalta es uno de los íconos de Chile."
+  },
+  {
+    "id": "almaviva",
+    "nombre": "Viña Almaviva",
+    "fundacion": 1996,
+    "ubicacion_principal": "Puente Alto, Valle del Maipo",
+    "valles_donde_produce": ["Maipo"],
+    "lineas_principales": [
+      {
+        "linea": "Almaviva",
+        "rango_precio": "íconico",
+        "rango_precio_clp": "150000-300000"
+      },
+      {
+        "linea": "Epu",
+        "rango_precio": "premium",
+        "rango_precio_clp": "30000-50000"
+      }
+    ],
+    "vino_emblema": "Almaviva (mezcla bordelesa)",
+    "descripcion": "Joint venture entre Concha y Toro y Baron Philippe de Rothschild (Mouton Rothschild). Uno de los vinos más prestigiosos de Sudamérica."
+  },
+  {
+    "id": "santa-carolina",
+    "nombre": "Viña Santa Carolina",
+    "fundacion": 1875,
+    "ubicacion_principal": "Macul, Santiago",
+    "valles_donde_produce": ["Maipo", "Cachapoal", "Casablanca", "Colchagua"],
+    "lineas_principales": [
+      {
+        "linea": "Cefiro",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "3500-6000"
+      },
+      {
+        "linea": "Reserva de Familia",
+        "rango_precio": "medio",
+        "rango_precio_clp": "10000-18000"
+      },
+      {
+        "linea": "Herencia",
+        "rango_precio": "premium",
+        "rango_precio_clp": "30000-50000"
+      }
+    ],
+    "vino_emblema": "Herencia (Carménère)",
+    "descripcion": "Viña tradicional con más de 145 años de historia. Su bodega antigua en Macul es Monumento Nacional."
+  },
+  {
+    "id": "casa-silva",
+    "nombre": "Viña Casa Silva",
+    "fundacion": 1892,
+    "ubicacion_principal": "San Fernando, Valle de Colchagua",
+    "valles_donde_produce": ["Colchagua", "Lago Ranco (sur)"],
+    "lineas_principales": [
+      {
+        "linea": "1912",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "3500-6500"
+      },
+      {
+        "linea": "Reserva",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "5000-10000"
+      },
+      {
+        "linea": "Microterroir",
+        "rango_precio": "premium",
+        "rango_precio_clp": "30000-60000"
+      },
+      {
+        "linea": "Altura",
+        "rango_precio": "premium",
+        "rango_precio_clp": "40000-70000"
+      }
+    ],
+    "vino_emblema": "Microterroir (Carménère)",
+    "descripcion": "Viña familiar (5ta generación) con énfasis en terroirs específicos. Pionera en plantar viñedos en el sur de Chile (Lago Ranco)."
+  },
+  {
+    "id": "san-pedro",
+    "nombre": "Viña San Pedro",
+    "fundacion": 1865,
+    "ubicacion_principal": "Molina, Valle de Curicó",
+    "valles_donde_produce": ["Curicó", "Cachapoal", "Casablanca", "Maule", "Elqui"],
+    "lineas_principales": [
+      {
+        "linea": "Gato",
+        "rango_precio": "muy bajo",
+        "rango_precio_clp": "2500-4500"
+      },
+      {
+        "linea": "35 Sur",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "3500-6000"
+      },
+      {
+        "linea": "Castillo de Molina",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "6000-10000"
+      },
+      {
+        "linea": "Cabo de Hornos",
+        "rango_precio": "premium",
+        "rango_precio_clp": "40000-80000"
+      }
+    ],
+    "vino_emblema": "Cabo de Hornos (Cabernet Sauvignon)",
+    "descripcion": "Una de las viñas más grandes y antiguas del país. Cabo de Hornos es uno de los íconos del Maipo Alto."
+  },
+  {
+    "id": "vina-tarapaca",
+    "nombre": "Viña Tarapacá",
+    "fundacion": 1874,
+    "ubicacion_principal": "Isla de Maipo, Valle del Maipo",
+    "valles_donde_produce": ["Maipo", "Casablanca", "Leyda"],
+    "lineas_principales": [
+      {
+        "linea": "León de Tarapacá",
+        "rango_precio": "bajo",
+        "rango_precio_clp": "3500-6500"
+      },
+      {
+        "linea": "Reserva",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "6000-10000"
+      },
+      {
+        "linea": "Gran Reserva",
+        "rango_precio": "medio",
+        "rango_precio_clp": "10000-18000"
+      },
+      {
+        "linea": "Etiqueta Negra",
+        "rango_precio": "premium",
+        "rango_precio_clp": "30000-50000"
+      }
+    ],
+    "vino_emblema": "Etiqueta Negra (mezcla)",
+    "descripcion": "Viña histórica con gran tradición en Cabernet Sauvignon del Maipo. Reconocida por su consistencia en calidad."
+  },
+  {
+    "id": "vina-leyda",
+    "nombre": "Viña Leyda",
+    "fundacion": 1997,
+    "ubicacion_principal": "San Antonio, Valle de Leyda",
+    "valles_donde_produce": ["Leyda", "San Antonio"],
+    "lineas_principales": [
+      {
+        "linea": "Classic Reserva",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "6000-10000"
+      },
+      {
+        "linea": "Single Vineyard",
+        "rango_precio": "medio",
+        "rango_precio_clp": "10000-18000"
+      },
+      {
+        "linea": "Lot",
+        "rango_precio": "premium",
+        "rango_precio_clp": "25000-45000"
+      }
+    ],
+    "vino_emblema": "Lot Sauvignon Blanc",
+    "descripcion": "Pionera en plantar el Valle de Leyda. Especialista en blancos costeros frescos y minerales, especialmente Sauvignon Blanc y Pinot Noir."
+  },
+  {
+    "id": "tabali",
+    "nombre": "Viña Tabalí",
+    "fundacion": 1993,
+    "ubicacion_principal": "Valle de Limarí",
+    "valles_donde_produce": ["Limarí"],
+    "lineas_principales": [
+      {
+        "linea": "Reserva",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "5000-9000"
+      },
+      {
+        "linea": "Reserva Especial",
+        "rango_precio": "medio",
+        "rango_precio_clp": "9000-15000"
+      },
+      {
+        "linea": "Talinay",
+        "rango_precio": "medio-alto",
+        "rango_precio_clp": "18000-30000"
+      }
+    ],
+    "vino_emblema": "Talinay Chardonnay",
+    "descripcion": "Especialista en mostrar el potencial del Valle de Limarí, especialmente en Chardonnay y Syrah de mineralidad calcárea."
+  },
+  {
+    "id": "miguel-torres",
+    "nombre": "Miguel Torres Chile",
+    "fundacion": 1979,
+    "ubicacion_principal": "Curicó, Valle de Curicó",
+    "valles_donde_produce": ["Curicó", "Maule", "Itata", "Bío-Bío"],
+    "lineas_principales": [
+      {
+        "linea": "Santa Digna",
+        "rango_precio": "medio-bajo",
+        "rango_precio_clp": "5000-9000"
+      },
+      {
+        "linea": "Cordillera",
+        "rango_precio": "medio",
+        "rango_precio_clp": "9000-15000"
+      },
+      {
+        "linea": "Manso de Velasco",
+        "rango_precio": "medio-alto",
+        "rango_precio_clp": "20000-35000"
+      }
+    ],
+    "vino_emblema": "Manso de Velasco (Cabernet Sauvignon de viñedos viejos)",
+    "descripcion": "Filial chilena de la histórica viña española Torres. Pionera en introducir tecnología enológica moderna en Chile en los años 80."
+  }
+]

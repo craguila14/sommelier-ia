@@ -1,0 +1,692 @@
+[
+  {
+    "id": "asado-tira",
+    "plato": "Asado de tira",
+    "tipo": "carne_vacuna",
+    "preparacion": "parrilla",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle del Maipo",
+        "razon": "Taninos firmes complementan la grasa del vacuno y el ahumado de la parrilla",
+        "ejemplos_vinas": ["Santa Rita Reserva", "Concha y Toro Casillero del Diablo"],
+        "rango_precio_clp": "5000-15000"
+      },
+      {
+        "cepa": "Carménère",
+        "region": "Valle de Colchagua",
+        "razon": "Sus notas especiadas realzan los sabores ahumados",
+        "ejemplos_vinas": ["Montes Alpha", "Viu Manent Reserva"],
+        "rango_precio_clp": "8000-20000"
+      }
+    ]
+  },
+  {
+    "id": "lomo-vetado",
+    "plato": "Lomo vetado a la parrilla",
+    "tipo": "carne_vacuna",
+    "preparacion": "parrilla",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle del Maipo Alto",
+        "razon": "Estructura tánica y mineralidad complementan la jugosidad del corte",
+        "ejemplos_vinas": ["Santa Rita Medalla Real", "Cousiño Macul Antiguas Reservas"],
+        "rango_precio_clp": "10000-25000"
+      },
+      {
+        "cepa": "Malbec",
+        "region": "Valle del Maule",
+        "razon": "Cuerpo medio-alto y notas frutadas que armonizan con la carne roja",
+        "ejemplos_vinas": ["Gillmore Mariposa", "J. Bouchon"],
+        "rango_precio_clp": "8000-18000"
+      }
+    ]
+  },
+  {
+    "id": "plateada",
+    "plato": "Plateada al horno",
+    "tipo": "carne_vacuna",
+    "preparacion": "horno",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Carménère",
+        "region": "Valle de Cachapoal",
+        "razon": "Notas de chocolate y especias se fusionan con la cocción lenta",
+        "ejemplos_vinas": ["Anakena Single Vineyard", "Morandé Reserva"],
+        "rango_precio_clp": "8000-15000"
+      },
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle de Aconcagua",
+        "razon": "Estructura potente para una carne untuosa",
+        "ejemplos_vinas": ["Errázuriz Max Reserva"],
+        "rango_precio_clp": "10000-20000"
+      }
+    ]
+  },
+  {
+    "id": "cordero-asado",
+    "plato": "Cordero asado",
+    "tipo": "carne_ovina",
+    "preparacion": "horno o parrilla",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Syrah",
+        "region": "Valle de Colchagua",
+        "razon": "Maridaje clásico mundial: las notas especiadas realzan el sabor del cordero",
+        "ejemplos_vinas": ["Montes Folly", "Viu Manent Single Vineyard"],
+        "rango_precio_clp": "15000-50000"
+      },
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle del Maipo",
+        "razon": "Taninos firmes que limpian el paladar de la grasa del cordero",
+        "ejemplos_vinas": ["Concha y Toro Marqués de Casa Concha"],
+        "rango_precio_clp": "12000-22000"
+      }
+    ]
+  },
+  {
+    "id": "cazuela-vacuno",
+    "plato": "Cazuela de vacuno",
+    "tipo": "carne_vacuna",
+    "preparacion": "guiso",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Carménère",
+        "region": "Valle de Colchagua",
+        "razon": "Vino emblema de Chile para un plato emblema de Chile",
+        "ejemplos_vinas": ["Casa Silva Reserva", "Santa Helena"],
+        "rango_precio_clp": "5000-12000"
+      },
+      {
+        "cepa": "País",
+        "region": "Valle del Itata",
+        "razon": "Conexión histórica con la cocina tradicional chilena",
+        "ejemplos_vinas": ["Roberto Henríquez", "Cacique Maravilla"],
+        "rango_precio_clp": "7000-15000"
+      }
+    ]
+  },
+  {
+    "id": "cazuela-ave",
+    "plato": "Cazuela de ave",
+    "tipo": "ave",
+    "preparacion": "guiso",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "País",
+        "region": "Valle del Maule",
+        "razon": "Vino tradicional chileno que conecta con la cocina criolla",
+        "ejemplos_vinas": ["J. Bouchon País Salvaje"],
+        "rango_precio_clp": "6000-12000"
+      },
+      {
+        "cepa": "Pinot Noir",
+        "region": "Valle de Casablanca",
+        "razon": "Frescura que limpia el caldo y resalta el ave",
+        "ejemplos_vinas": ["Casas del Bosque Reserva"],
+        "rango_precio_clp": "8000-15000"
+      }
+    ]
+  },
+  {
+    "id": "pollo-asado",
+    "plato": "Pollo asado al horno",
+    "tipo": "ave",
+    "preparacion": "horno",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Chardonnay",
+        "region": "Valle de Casablanca",
+        "razon": "Cuerpo medio que armoniza con la grasa del pollo",
+        "ejemplos_vinas": ["Veramonte Reserva", "Casas del Bosque"],
+        "rango_precio_clp": "6000-15000"
+      },
+      {
+        "cepa": "Pinot Noir",
+        "region": "Valle de Leyda",
+        "razon": "Versátil tinto ligero que no opaca el sabor del pollo",
+        "ejemplos_vinas": ["Viña Leyda Reserva"],
+        "rango_precio_clp": "9000-18000"
+      }
+    ]
+  },
+  {
+    "id": "pato-confitado",
+    "plato": "Pato confitado o magret",
+    "tipo": "ave",
+    "preparacion": "horno o sellado",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Pinot Noir",
+        "region": "Valle de San Antonio",
+        "razon": "Maridaje clásico francés: elegancia que acompaña la grasa del pato",
+        "ejemplos_vinas": ["Matetic EQ", "Casa Marín"],
+        "rango_precio_clp": "15000-35000"
+      },
+      {
+        "cepa": "Cabernet Franc",
+        "region": "Valle del Maipo",
+        "razon": "Notas vegetales y especiadas que complementan el sabor del pato",
+        "ejemplos_vinas": ["Santa Rita Floresta"],
+        "rango_precio_clp": "20000-40000"
+      }
+    ]
+  },
+  {
+    "id": "cerdo-costillar",
+    "plato": "Costillar de cerdo a la parrilla",
+    "tipo": "carne_cerdo",
+    "preparacion": "parrilla",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Syrah",
+        "region": "Valle del Limarí",
+        "razon": "Mineralidad y especias acompañan la grasa y el ahumado",
+        "ejemplos_vinas": ["Tabalí Reserva Especial", "Maycas del Limarí"],
+        "rango_precio_clp": "8000-18000"
+      },
+      {
+        "cepa": "Merlot",
+        "region": "Valle de Colchagua",
+        "razon": "Suavidad que armoniza con la dulzura natural del cerdo",
+        "ejemplos_vinas": ["Casa Silva Reserva"],
+        "rango_precio_clp": "5000-12000"
+      }
+    ]
+  },
+  {
+    "id": "arrollado-huaso",
+    "plato": "Arrollado huaso",
+    "tipo": "carne_cerdo",
+    "preparacion": "tradicional chileno",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "País",
+        "region": "Valle del Itata",
+        "razon": "Conexión cultural perfecta entre cepa antigua y plato tradicional",
+        "ejemplos_vinas": ["Pedro Parra", "Cacique Maravilla"],
+        "rango_precio_clp": "7000-15000"
+      },
+      {
+        "cepa": "Carménère",
+        "region": "Valle del Maule",
+        "razon": "Acompaña los sabores especiados del relleno",
+        "ejemplos_vinas": ["Gillmore", "Viña Estampa"],
+        "rango_precio_clp": "6000-12000"
+      }
+    ]
+  },
+  {
+    "id": "salmon-plancha",
+    "plato": "Salmón a la plancha",
+    "tipo": "pescado_graso",
+    "preparacion": "plancha",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Pinot Noir",
+        "region": "Valle de Casablanca",
+        "razon": "Único tinto ligero que marida con pescados grasos sin opacarlos",
+        "ejemplos_vinas": ["Veramonte Reserva", "Casas del Bosque"],
+        "rango_precio_clp": "9000-18000"
+      },
+      {
+        "cepa": "Chardonnay",
+        "region": "Valle de Limarí",
+        "razon": "Mineralidad y untuosidad ideales para salmón",
+        "ejemplos_vinas": ["Tabalí Talinay", "Maycas del Limarí"],
+        "rango_precio_clp": "10000-20000"
+      }
+    ]
+  },
+  {
+    "id": "ceviche",
+    "plato": "Ceviche de pescado",
+    "tipo": "pescado_crudo",
+    "preparacion": "marinado en cítricos",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Leyda",
+        "razon": "La acidez cítrica del vino se conecta con el limón del ceviche",
+        "ejemplos_vinas": ["Viña Leyda Single Vineyard", "Casa Marín"],
+        "rango_precio_clp": "7000-15000"
+      },
+      {
+        "cepa": "Espumante Brut",
+        "region": "Valle de Casablanca",
+        "razon": "Las burbujas y frescura limpian el paladar entre bocados",
+        "ejemplos_vinas": ["Morandé Brut", "Valdivieso"],
+        "rango_precio_clp": "8000-20000"
+      }
+    ]
+  },
+  {
+    "id": "reineta-frita",
+    "plato": "Reineta frita",
+    "tipo": "pescado_blanco",
+    "preparacion": "frito",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Casablanca",
+        "razon": "Acidez vibrante que limpia la grasa del frito",
+        "ejemplos_vinas": ["Veramonte", "Casas del Bosque"],
+        "rango_precio_clp": "5000-10000"
+      },
+      {
+        "cepa": "Chardonnay",
+        "region": "Valle de Casablanca",
+        "razon": "Cuerpo medio que acompaña sin opacar",
+        "ejemplos_vinas": ["Viña Indómita", "Veramonte Reserva"],
+        "rango_precio_clp": "6000-12000"
+      }
+    ]
+  },
+  {
+    "id": "congrio-frito",
+    "plato": "Congrio frito",
+    "tipo": "pescado_blanco",
+    "preparacion": "frito",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Leyda",
+        "razon": "Mineralidad marina que conecta con el origen del pescado",
+        "ejemplos_vinas": ["Garcés Silva Amayna"],
+        "rango_precio_clp": "8000-15000"
+      },
+      {
+        "cepa": "Chardonnay",
+        "region": "Valle de Limarí",
+        "razon": "Untuosidad que se equilibra con la fritura",
+        "ejemplos_vinas": ["Tabalí"],
+        "rango_precio_clp": "8000-18000"
+      }
+    ]
+  },
+  {
+    "id": "ostras-frescas",
+    "plato": "Ostras frescas",
+    "tipo": "marisco",
+    "preparacion": "crudo",
+    "intensidad_sabor": "delicada",
+    "vinos_recomendados": [
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Leyda",
+        "razon": "Mineralidad marina y acidez que potencian el sabor del mar",
+        "ejemplos_vinas": ["Casa Marín Cipreses", "Viña Leyda"],
+        "rango_precio_clp": "10000-25000"
+      },
+      {
+        "cepa": "Espumante Brut",
+        "region": "Valle de Casablanca",
+        "razon": "Maridaje clásico mundial: burbujas y mariscos",
+        "ejemplos_vinas": ["Valdivieso Brut", "Morandé"],
+        "rango_precio_clp": "10000-25000"
+      }
+    ]
+  },
+  {
+    "id": "machas-parmesana",
+    "plato": "Machas a la parmesana",
+    "tipo": "marisco",
+    "preparacion": "horno con queso",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Chardonnay",
+        "region": "Valle de Casablanca",
+        "razon": "Cuerpo y notas mantecosas para acompañar el queso gratinado",
+        "ejemplos_vinas": ["Casas del Bosque Reserva", "Veramonte"],
+        "rango_precio_clp": "7000-15000"
+      },
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Casablanca",
+        "razon": "Frescura para equilibrar la untuosidad del queso",
+        "ejemplos_vinas": ["Viña Indómita"],
+        "rango_precio_clp": "5000-10000"
+      }
+    ]
+  },
+  {
+    "id": "camarones-ajillo",
+    "plato": "Camarones al ajillo",
+    "tipo": "marisco",
+    "preparacion": "salteado",
+    "intensidad_sabor": "media-alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Leyda",
+        "razon": "Acidez que corta la untuosidad del aceite y el ajo",
+        "ejemplos_vinas": ["Viña Leyda Reserva"],
+        "rango_precio_clp": "7000-15000"
+      },
+      {
+        "cepa": "Viognier",
+        "region": "Valle de Colchagua",
+        "razon": "Aromas florales y untuosos que armonizan con el ajo",
+        "ejemplos_vinas": ["Casa Silva Lago Ranco"],
+        "rango_precio_clp": "10000-20000"
+      }
+    ]
+  },
+  {
+    "id": "pasta-bolognesa",
+    "plato": "Pasta a la boloñesa",
+    "tipo": "pasta",
+    "preparacion": "salsa de carne",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Merlot",
+        "region": "Valle de Colchagua",
+        "razon": "Suavidad y notas frutadas que acompañan la salsa de tomate y carne",
+        "ejemplos_vinas": ["Casa Silva", "Viu Manent"],
+        "rango_precio_clp": "5000-10000"
+      },
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle Central",
+        "razon": "Cuerpo y taninos para una pasta con carne intensa",
+        "ejemplos_vinas": ["Concha y Toro Casillero del Diablo"],
+        "rango_precio_clp": "4000-8000"
+      }
+    ]
+  },
+  {
+    "id": "pasta-mariscos",
+    "plato": "Pasta con mariscos",
+    "tipo": "pasta",
+    "preparacion": "salsa blanca o aceite",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Chardonnay",
+        "region": "Valle de Casablanca",
+        "razon": "Cuerpo medio que armoniza con la untuosidad de la salsa",
+        "ejemplos_vinas": ["Veramonte Reserva", "Casas del Bosque"],
+        "rango_precio_clp": "7000-15000"
+      },
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Leyda",
+        "razon": "Frescura y mineralidad que resaltan los mariscos",
+        "ejemplos_vinas": ["Garcés Silva Amayna"],
+        "rango_precio_clp": "8000-15000"
+      }
+    ]
+  },
+  {
+    "id": "pizza-pepperoni",
+    "plato": "Pizza pepperoni o salame",
+    "tipo": "pizza",
+    "preparacion": "horno",
+    "intensidad_sabor": "media-alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cinsault",
+        "region": "Valle del Itata",
+        "razon": "Tinto ligero y fresco que combina perfecto con pizza",
+        "ejemplos_vinas": ["Roberto Henríquez", "Pedro Parra"],
+        "rango_precio_clp": "7000-13000"
+      },
+      {
+        "cepa": "Carménère",
+        "region": "Valle de Colchagua",
+        "razon": "Notas especiadas que acompañan los embutidos",
+        "ejemplos_vinas": ["Santa Helena", "Concha y Toro"],
+        "rango_precio_clp": "4000-8000"
+      }
+    ]
+  },
+  {
+    "id": "empanada-pino",
+    "plato": "Empanada de pino",
+    "tipo": "tradicional_chileno",
+    "preparacion": "horno",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle del Maipo",
+        "razon": "Maridaje clásico chileno: vino tinto y empanada",
+        "ejemplos_vinas": ["Concha y Toro Frontera", "Santa Rita 120"],
+        "rango_precio_clp": "3000-7000"
+      },
+      {
+        "cepa": "País",
+        "region": "Valle del Itata",
+        "razon": "Combinación auténticamente chilena con cepa patrimonial",
+        "ejemplos_vinas": ["Cacique Maravilla", "Roberto Henríquez"],
+        "rango_precio_clp": "7000-15000"
+      }
+    ]
+  },
+  {
+    "id": "sushi",
+    "plato": "Sushi (variedad)",
+    "tipo": "cocina_japonesa",
+    "preparacion": "crudo y arroz",
+    "intensidad_sabor": "delicada",
+    "vinos_recomendados": [
+      {
+        "cepa": "Riesling",
+        "region": "Valle del Bío-Bío",
+        "razon": "Acidez y frescura que se adaptan al pescado crudo y wasabi",
+        "ejemplos_vinas": ["Casa Silva", "Cono Sur"],
+        "rango_precio_clp": "8000-15000"
+      },
+      {
+        "cepa": "Espumante Brut",
+        "region": "Valle de Casablanca",
+        "razon": "Burbujas que limpian el paladar entre piezas",
+        "ejemplos_vinas": ["Morandé Brut", "Valdivieso"],
+        "rango_precio_clp": "8000-18000"
+      }
+    ]
+  },
+  {
+    "id": "comida-tailandesa",
+    "plato": "Comida tailandesa o curry",
+    "tipo": "cocina_asiatica",
+    "preparacion": "especiada",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Gewürztraminer",
+        "region": "Valle de Casablanca",
+        "razon": "Notas exóticas que armonizan con jengibre y especias",
+        "ejemplos_vinas": ["Cono Sur Reserva"],
+        "rango_precio_clp": "8000-15000"
+      },
+      {
+        "cepa": "Riesling",
+        "region": "Valle del Bío-Bío",
+        "razon": "Toque dulce y acidez para equilibrar el picante",
+        "ejemplos_vinas": ["Casa Silva"],
+        "rango_precio_clp": "8000-15000"
+      }
+    ]
+  },
+  {
+    "id": "queso-maduro",
+    "plato": "Tabla de quesos maduros",
+    "tipo": "queso",
+    "preparacion": "tabla",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle del Maipo",
+        "razon": "Taninos firmes para quesos curados como manchego o pecorino",
+        "ejemplos_vinas": ["Cousiño Macul Antiguas Reservas"],
+        "rango_precio_clp": "10000-20000"
+      },
+      {
+        "cepa": "Carménère",
+        "region": "Valle de Colchagua",
+        "razon": "Especias y cuerpo que acompañan quesos intensos",
+        "ejemplos_vinas": ["Montes Alpha"],
+        "rango_precio_clp": "10000-20000"
+      }
+    ]
+  },
+  {
+    "id": "queso-azul",
+    "plato": "Queso azul (Roquefort, Gorgonzola)",
+    "tipo": "queso",
+    "preparacion": "tabla",
+    "intensidad_sabor": "muy alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cosecha tardía",
+        "region": "Valle de Colchagua",
+        "razon": "Maridaje clásico mundial: dulzura del vino contra salinidad del queso azul",
+        "ejemplos_vinas": ["Concha y Toro Late Harvest", "Errázuriz"],
+        "rango_precio_clp": "8000-20000"
+      },
+      {
+        "cepa": "Syrah",
+        "region": "Valle de Colchagua",
+        "razon": "Cuerpo e intensidad que aguantan el sabor potente del queso",
+        "ejemplos_vinas": ["Montes Folly"],
+        "rango_precio_clp": "20000-50000"
+      }
+    ]
+  },
+  {
+    "id": "postre-chocolate",
+    "plato": "Postre de chocolate intenso",
+    "tipo": "postre",
+    "preparacion": "horneado o ganache",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Cosecha tardía / vino dulce",
+        "region": "Valle de Colchagua",
+        "razon": "El postre debe ser menos dulce que el vino para que la armonía funcione",
+        "ejemplos_vinas": ["Concha y Toro Late Harvest"],
+        "rango_precio_clp": "8000-18000"
+      },
+      {
+        "cepa": "Carménère reserva",
+        "region": "Valle de Colchagua",
+        "razon": "Notas de cacao y especias del vino conectan con el chocolate",
+        "ejemplos_vinas": ["Casa Lapostolle Cuvée Alexandre"],
+        "rango_precio_clp": "20000-40000"
+      }
+    ]
+  },
+  {
+    "id": "aperitivo-canapes",
+    "plato": "Aperitivos y canapés variados",
+    "tipo": "aperitivo",
+    "preparacion": "varios",
+    "intensidad_sabor": "media",
+    "vinos_recomendados": [
+      {
+        "cepa": "Espumante Brut",
+        "region": "Valle de Casablanca",
+        "razon": "El comodín perfecto, combina con casi todo",
+        "ejemplos_vinas": ["Valdivieso Brut", "Morandé Brut"],
+        "rango_precio_clp": "8000-18000"
+      },
+      {
+        "cepa": "Sauvignon Blanc",
+        "region": "Valle de Casablanca",
+        "razon": "Frescura ideal para abrir el paladar antes de una cena",
+        "ejemplos_vinas": ["Veramonte"],
+        "rango_precio_clp": "5000-10000"
+      }
+    ]
+  },
+  {
+    "id": "regalo",
+    "plato": "Vino para regalar",
+    "tipo": "ocasion",
+    "preparacion": "n/a",
+    "intensidad_sabor": "n/a",
+    "vinos_recomendados": [
+      {
+        "cepa": "Carménère reserva",
+        "region": "Valle de Colchagua",
+        "razon": "Cepa emblema de Chile, elección segura y representativa",
+        "ejemplos_vinas": ["Montes Alpha", "Viu Manent Single Vineyard"],
+        "rango_precio_clp": "12000-25000"
+      },
+      {
+        "cepa": "Cabernet Sauvignon premium",
+        "region": "Valle del Maipo",
+        "razon": "Vino prestigioso que siempre impresiona",
+        "ejemplos_vinas": ["Don Melchor", "Almaviva"],
+        "rango_precio_clp": "60000-200000"
+      }
+    ]
+  },
+  {
+    "id": "cena-romantica",
+    "plato": "Cena romántica",
+    "tipo": "ocasion",
+    "preparacion": "n/a",
+    "intensidad_sabor": "n/a",
+    "vinos_recomendados": [
+      {
+        "cepa": "Pinot Noir",
+        "region": "Valle de Casablanca",
+        "razon": "Elegante, sutil y versátil con casi cualquier comida",
+        "ejemplos_vinas": ["Casas del Bosque", "Veramonte Reserva"],
+        "rango_precio_clp": "10000-22000"
+      },
+      {
+        "cepa": "Espumante",
+        "region": "Valle de Casablanca",
+        "razon": "Las burbujas siempre son sinónimo de celebración",
+        "ejemplos_vinas": ["Valdivieso Brut Nature"],
+        "rango_precio_clp": "10000-25000"
+      }
+    ]
+  },
+  {
+    "id": "asado-familiar",
+    "plato": "Asado familiar (variado)",
+    "tipo": "ocasion",
+    "preparacion": "parrilla mixta",
+    "intensidad_sabor": "alta",
+    "vinos_recomendados": [
+      {
+        "cepa": "Carménère",
+        "region": "Valle de Colchagua",
+        "razon": "Versatilidad para distintas carnes y precio accesible",
+        "ejemplos_vinas": ["Casa Silva Reserva", "Santa Helena"],
+        "rango_precio_clp": "5000-10000"
+      },
+      {
+        "cepa": "Cabernet Sauvignon",
+        "region": "Valle Central",
+        "razon": "Clásico chileno para la parrilla, va con todo",
+        "ejemplos_vinas": ["Santa Rita 120", "Concha y Toro Casillero del Diablo"],
+        "rango_precio_clp": "4000-8000"
+      }
+    ]
+  }
+]

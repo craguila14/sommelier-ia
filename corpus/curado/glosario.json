@@ -1,0 +1,177 @@
+[
+  {
+    "id": "taninos",
+    "termino": "Taninos",
+    "definicion": "Compuestos naturales presentes en la piel, semillas y raspones de la uva, así como en las barricas de roble. Generan la sensación de astringencia o sequedad en la boca.",
+    "cuando_aplicar": "Se sienten más en vinos tintos jóvenes y robustos como Cabernet Sauvignon o Syrah. Con la guarda, se suavizan.",
+    "categoria": "estructura"
+  },
+  {
+    "id": "cuerpo",
+    "termino": "Cuerpo",
+    "definicion": "Sensación de peso o densidad del vino en la boca. Se clasifica en ligero, medio o robusto.",
+    "cuando_aplicar": "Un Pinot Noir es de cuerpo ligero, un Merlot de cuerpo medio, un Cabernet Sauvignon de cuerpo robusto.",
+    "categoria": "estructura"
+  },
+  {
+    "id": "acidez",
+    "termino": "Acidez",
+    "definicion": "Sensación de frescura y vivacidad en el paladar. Una buena acidez hace al vino más equilibrado y apto para maridar comidas.",
+    "cuando_aplicar": "Vinos blancos como el Sauvignon Blanc o Riesling destacan por su acidez. Es clave para platos grasos o cremosos.",
+    "categoria": "estructura"
+  },
+  {
+    "id": "crianza",
+    "termino": "Crianza",
+    "definicion": "Proceso por el cual el vino reposa en barricas de roble o en botella antes de salir al mercado, ganando complejidad aromática.",
+    "cuando_aplicar": "Aplica especialmente a vinos tintos premium. La crianza en barrica francesa aporta notas de vainilla y especias; la americana, más coco y dulzor.",
+    "categoria": "elaboracion"
+  },
+  {
+    "id": "reserva",
+    "termino": "Reserva",
+    "definicion": "Categoría que en Chile no tiene una definición legal estricta como en España, pero suele indicar un vino con mayor calidad y crianza que la línea base.",
+    "cuando_aplicar": "Un 'Reserva' chileno generalmente ha pasado por barrica y proviene de viñedos seleccionados.",
+    "categoria": "etiqueta"
+  },
+  {
+    "id": "gran-reserva",
+    "termino": "Gran Reserva",
+    "definicion": "Categoría superior a Reserva, típicamente con mayor tiempo de crianza y proveniente de los mejores viñedos de la viña.",
+    "cuando_aplicar": "Buscar esta indicación cuando se quiere un vino premium dentro de una viña reconocida.",
+    "categoria": "etiqueta"
+  },
+  {
+    "id": "decantar",
+    "termino": "Decantar",
+    "definicion": "Trasvasar el vino de la botella a un decantador para airearlo y separar sedimentos.",
+    "cuando_aplicar": "Vinos tintos jóvenes con taninos firmes (para suavizarlos con oxígeno) o tintos viejos con sedimento (para separar las partículas).",
+    "categoria": "servicio"
+  },
+  {
+    "id": "aireacion",
+    "termino": "Aireación",
+    "definicion": "Permitir que el vino entre en contacto con el oxígeno antes de servirlo, lo que ayuda a desarrollar sus aromas.",
+    "cuando_aplicar": "Tintos jóvenes y estructurados se benefician de 30 minutos a 1 hora de aireación. Basta con servir en copa amplia.",
+    "categoria": "servicio"
+  },
+  {
+    "id": "terroir",
+    "termino": "Terroir",
+    "definicion": "Conjunto de factores naturales (clima, suelo, topografía) y humanos que dan identidad única a un vino según el lugar donde se produce.",
+    "cuando_aplicar": "Es la razón por la que un Carménère de Apalta sabe distinto a uno del Maipo, aunque sea la misma cepa.",
+    "categoria": "viticultura"
+  },
+  {
+    "id": "varietal",
+    "termino": "Varietal",
+    "definicion": "Vino elaborado mayoritariamente con una sola cepa (al menos 75% en Chile).",
+    "cuando_aplicar": "Un 'Carménère' en la etiqueta indica que es un varietal de esa cepa. Si dice 'Cabernet-Carménère', es un ensamblaje.",
+    "categoria": "etiqueta"
+  },
+  {
+    "id": "ensamblaje",
+    "termino": "Ensamblaje (o Blend)",
+    "definicion": "Vino elaborado con la mezcla de dos o más cepas para lograr un equilibrio o complejidad mayor.",
+    "cuando_aplicar": "Las mezclas bordelesas (Cabernet + Merlot + Carménère) son clásicas en Chile, como Almaviva o Don Melchor.",
+    "categoria": "elaboracion"
+  },
+  {
+    "id": "guarda",
+    "termino": "Guarda",
+    "definicion": "Capacidad de un vino para evolucionar positivamente con los años, ganando complejidad en lugar de deteriorarse.",
+    "cuando_aplicar": "No todos los vinos están hechos para guardar. La mayoría de los vinos jóvenes y blancos se toman dentro de 1-3 años.",
+    "categoria": "guarda"
+  },
+  {
+    "id": "anada",
+    "termino": "Añada (o Cosecha)",
+    "definicion": "Año en que se cosecharon las uvas con las que se elaboró el vino. Aparece en la etiqueta.",
+    "cuando_aplicar": "Las añadas pueden variar mucho en calidad según las condiciones climáticas del año en esa región.",
+    "categoria": "etiqueta"
+  },
+  {
+    "id": "sulfitos",
+    "termino": "Sulfitos",
+    "definicion": "Compuesto de azufre que se añade al vino como conservante natural. Casi todos los vinos comerciales tienen sulfitos.",
+    "cuando_aplicar": "Personas con sensibilidad a los sulfitos pueden buscar vinos 'naturales' o 'sin sulfitos añadidos'.",
+    "categoria": "elaboracion"
+  },
+  {
+    "id": "vendimia",
+    "termino": "Vendimia",
+    "definicion": "Cosecha de la uva, que ocurre en Chile entre febrero y abril dependiendo de la cepa y el valle.",
+    "cuando_aplicar": "Las vendimias tempranas son para espumantes y blancos frescos; las tardías para tintos potentes.",
+    "categoria": "viticultura"
+  },
+  {
+    "id": "cosecha-tardia",
+    "termino": "Cosecha Tardía (Late Harvest)",
+    "definicion": "Vino dulce elaborado con uvas cosechadas tarde, cuando han concentrado más azúcar.",
+    "cuando_aplicar": "Maridaje clásico con quesos azules y postres no muy dulces.",
+    "categoria": "estilo"
+  },
+  {
+    "id": "denominacion-origen",
+    "termino": "Denominación de Origen",
+    "definicion": "Certificación oficial que garantiza que un vino proviene de una zona geográfica específica y cumple ciertas reglas (cepas, viticultura).",
+    "cuando_aplicar": "En Chile está regulada por el Decreto N°464 del SAG. Si la etiqueta dice 'Valle de Colchagua', cumple esa denominación.",
+    "categoria": "regulacion"
+  },
+  {
+    "id": "barrica",
+    "termino": "Barrica",
+    "definicion": "Recipiente de madera (generalmente roble francés o americano) donde se cría el vino, aportando aromas y estructura.",
+    "cuando_aplicar": "Las barricas nuevas aportan más sabor a madera; las usadas, menos. El vino con mucha barrica suele tener notas de vainilla, coco y especias.",
+    "categoria": "elaboracion"
+  },
+  {
+    "id": "tipo-vino",
+    "termino": "Tipos de vino según azúcar",
+    "definicion": "Seco (sin azúcar perceptible), semi-seco (poco dulce), semi-dulce y dulce (alto contenido de azúcar).",
+    "cuando_aplicar": "La mayoría de los vinos de mesa chilenos son secos. Los espumantes pueden ser Brut Nature, Brut, Demi-sec o Dulce.",
+    "categoria": "estilo"
+  },
+  {
+    "id": "espumante-metodos",
+    "termino": "Métodos de espumante",
+    "definicion": "Método tradicional o Champenoise (segunda fermentación en botella, mayor calidad) y método Charmat (en tanque, más rápido y económico).",
+    "cuando_aplicar": "Los espumantes premium chilenos suelen ser método tradicional. Los más económicos, método Charmat.",
+    "categoria": "elaboracion"
+  },
+  {
+    "id": "fermentacion-malolactica",
+    "termino": "Fermentación maloláctica",
+    "definicion": "Segunda fermentación que convierte el ácido málico (verde, agrio) en ácido láctico (suave, cremoso).",
+    "cuando_aplicar": "Da a los vinos esa sensación cremosa y mantecosa, típica en Chardonnay con barrica.",
+    "categoria": "elaboracion"
+  },
+  {
+    "id": "vino-natural",
+    "termino": "Vino natural",
+    "definicion": "Vino elaborado con mínima intervención: uvas orgánicas, sin aditivos, fermentación con levaduras nativas, poco o nada de sulfitos.",
+    "cuando_aplicar": "Tendencia creciente en Chile, especialmente en valles del Itata y Maule con cepas patrimoniales.",
+    "categoria": "estilo"
+  },
+  {
+    "id": "vino-organico",
+    "termino": "Vino orgánico",
+    "definicion": "Vino elaborado con uvas cultivadas sin pesticidas ni fertilizantes sintéticos, certificado por organismos oficiales.",
+    "cuando_aplicar": "Buscar el sello de certificación en la etiqueta. Distinto a 'vino natural', que no tiene certificación obligatoria.",
+    "categoria": "estilo"
+  },
+  {
+    "id": "vino-biodinamico",
+    "termino": "Vino biodinámico",
+    "definicion": "Va más allá del orgánico: incorpora prácticas agrícolas según ciclos lunares y un enfoque holístico del viñedo.",
+    "cuando_aplicar": "Certificación Demeter es la más reconocida. En Chile, viñas como Emiliana producen vinos biodinámicos.",
+    "categoria": "estilo"
+  },
+  {
+    "id": "secano-interior",
+    "termino": "Secano Interior",
+    "definicion": "Denominación de origen especial en Chile para vinos de cepas País y Cinsault cultivados sin riego, entre los ríos Mataquito y Bío-Bío.",
+    "cuando_aplicar": "Movimiento muy en alza, vinos con identidad chilena pura. Buscar etiquetas del Itata, Maule y zonas del secano.",
+    "categoria": "regulacion"
+  }
+]

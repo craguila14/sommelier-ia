@@ -1,0 +1,404 @@
+[
+  {
+    "id": "carmenere",
+    "nombre": "Carménère",
+    "tipo": "tinto",
+    "origen": "Burdeos, Francia",
+    "historia_chile": "Llegó a Chile a mediados del siglo XIX confundida con Merlot. Fue redescubierta en 1994 por el ampelógrafo francés Jean-Michel Boursiquot. Hoy es considerada la cepa emblema de Chile.",
+    "caracteristicas_sensoriales": [
+      "Notas de pimiento rojo y especias",
+      "Frutos negros maduros (mora, ciruela)",
+      "Toques de chocolate, café y cuero",
+      "Taninos suaves y redondos",
+      "Cuerpo medio a alto"
+    ],
+    "regiones_principales": ["Valle de Colchagua", "Valle del Maipo", "Valle de Cachapoal", "Valle de Apalta"],
+    "maridajes_recomendados": [
+      "Carnes rojas a la parrilla",
+      "Cazuelas chilenas",
+      "Quesos maduros",
+      "Cordero asado",
+      "Platos con pimientos"
+    ],
+    "temperatura_servicio_celsius": "16-18",
+    "potencial_guarda_anios": "5-10",
+    "decantar": true,
+    "rango_precio_clp": "8000-50000",
+    "tip_sommelier": "Si la pruebas joven puede mostrar notas vegetales muy intensas; con guarda gana complejidad y elegancia."
+  },
+  {
+    "id": "cabernet-sauvignon",
+    "nombre": "Cabernet Sauvignon",
+    "tipo": "tinto",
+    "origen": "Burdeos, Francia",
+    "historia_chile": "Es la cepa más plantada de Chile, llegó en el siglo XIX. El Valle del Maipo es reconocido mundialmente por sus Cabernet Sauvignon de altura.",
+    "caracteristicas_sensoriales": [
+      "Frutos negros (cassis, mora, arándano)",
+      "Notas mentoladas y de eucalipto",
+      "Toques de cedro y tabaco con guarda",
+      "Taninos firmes y estructurados",
+      "Cuerpo robusto"
+    ],
+    "regiones_principales": ["Valle del Maipo", "Valle de Colchagua", "Valle de Aconcagua", "Valle de Cachapoal"],
+    "maridajes_recomendados": [
+      "Asado de tira",
+      "Lomo vetado",
+      "Cordero",
+      "Quesos maduros tipo manchego",
+      "Pastas con salsas robustas"
+    ],
+    "temperatura_servicio_celsius": "16-18",
+    "potencial_guarda_anios": "10-20",
+    "decantar": true,
+    "rango_precio_clp": "5000-100000",
+    "tip_sommelier": "Los Maipo Alto tienen una mineralidad y notas mentoladas únicas por la altitud andina."
+  },
+  {
+    "id": "merlot",
+    "nombre": "Merlot",
+    "tipo": "tinto",
+    "origen": "Burdeos, Francia",
+    "historia_chile": "Por décadas se confundió con Carménère. Hoy se cultiva con identidad propia, especialmente en valles más cálidos.",
+    "caracteristicas_sensoriales": [
+      "Frutos rojos maduros (cereza, ciruela)",
+      "Notas de chocolate y vainilla",
+      "Taninos suaves y aterciopelados",
+      "Cuerpo medio",
+      "Final redondo"
+    ],
+    "regiones_principales": ["Valle de Colchagua", "Valle del Maule", "Valle de Cachapoal"],
+    "maridajes_recomendados": [
+      "Pasta con salsa boloñesa",
+      "Pollo asado con hierbas",
+      "Hamburguesas gourmet",
+      "Quesos semi-maduros",
+      "Risottos"
+    ],
+    "temperatura_servicio_celsius": "15-17",
+    "potencial_guarda_anios": "3-7",
+    "decantar": false,
+    "rango_precio_clp": "4000-25000",
+    "tip_sommelier": "Excelente vino para iniciarse en los tintos por su suavidad y accesibilidad."
+  },
+  {
+    "id": "syrah",
+    "nombre": "Syrah",
+    "tipo": "tinto",
+    "origen": "Valle del Ródano, Francia",
+    "historia_chile": "Cepa relativamente nueva en Chile (desde los años 90), ha encontrado expresiones únicas en climas costeros y de altura.",
+    "caracteristicas_sensoriales": [
+      "Frutos negros y rojos maduros",
+      "Notas de pimienta negra",
+      "Toques ahumados y de cuero",
+      "Taninos firmes",
+      "Cuerpo medio a alto"
+    ],
+    "regiones_principales": ["Valle del Elqui", "Valle de Limarí", "Valle de Colchagua", "Valle de San Antonio"],
+    "maridajes_recomendados": [
+      "Cordero a la parrilla",
+      "Carnes de caza",
+      "Estofados especiados",
+      "Quesos azules",
+      "Curry de carne"
+    ],
+    "temperatura_servicio_celsius": "16-18",
+    "potencial_guarda_anios": "5-12",
+    "decantar": true,
+    "rango_precio_clp": "6000-40000",
+    "tip_sommelier": "Los Syrah de Elqui y Limarí son referentes mundiales por su mineralidad costera."
+  },
+  {
+    "id": "pinot-noir",
+    "nombre": "Pinot Noir",
+    "tipo": "tinto",
+    "origen": "Borgoña, Francia",
+    "historia_chile": "Se ha desarrollado fuertemente en valles fríos costeros desde los años 2000.",
+    "caracteristicas_sensoriales": [
+      "Frutos rojos frescos (frambuesa, frutilla)",
+      "Notas florales y de tierra húmeda",
+      "Cuerpo ligero a medio",
+      "Taninos suaves",
+      "Acidez vibrante"
+    ],
+    "regiones_principales": ["Valle de Casablanca", "Valle de San Antonio", "Valle de Leyda", "Valle de Bío-Bío"],
+    "maridajes_recomendados": [
+      "Salmón a la plancha",
+      "Atún sellado",
+      "Pato",
+      "Hongos y trufas",
+      "Quesos suaves de cabra"
+    ],
+    "temperatura_servicio_celsius": "14-16",
+    "potencial_guarda_anios": "3-8",
+    "decantar": false,
+    "rango_precio_clp": "8000-45000",
+    "tip_sommelier": "Es uno de los pocos tintos que marida bien con pescados grasos como el salmón."
+  },
+  {
+    "id": "pais",
+    "nombre": "País",
+    "tipo": "tinto",
+    "origen": "España (cepa traída por conquistadores)",
+    "historia_chile": "Es la cepa más antigua de Chile, llegó en el siglo XVI con los misioneros. Conocida también como Mission o Criolla. Vive un renacer en el secano interior.",
+    "caracteristicas_sensoriales": [
+      "Frutos rojos frescos",
+      "Acidez marcada",
+      "Cuerpo ligero",
+      "Taninos suaves",
+      "Notas rústicas y terrosas"
+    ],
+    "regiones_principales": ["Valle del Itata", "Valle del Maule", "Valle del Bío-Bío"],
+    "maridajes_recomendados": [
+      "Empanadas de pino",
+      "Charqui",
+      "Cazuela de ave",
+      "Longanizas",
+      "Pizzas artesanales"
+    ],
+    "temperatura_servicio_celsius": "14-16",
+    "potencial_guarda_anios": "2-5",
+    "decantar": false,
+    "rango_precio_clp": "4000-15000",
+    "tip_sommelier": "Una cepa con identidad chilena pura, ideal para acompañar comida tradicional."
+  },
+  {
+    "id": "malbec",
+    "nombre": "Malbec",
+    "tipo": "tinto",
+    "origen": "Cahors, Francia",
+    "historia_chile": "Aunque más asociada con Argentina, en Chile produce vinos elegantes especialmente en Colchagua y Maule.",
+    "caracteristicas_sensoriales": [
+      "Frutos negros intensos (ciruela, mora)",
+      "Notas florales (violeta)",
+      "Toques de cacao",
+      "Taninos firmes pero amables",
+      "Cuerpo medio a alto"
+    ],
+    "regiones_principales": ["Valle de Colchagua", "Valle del Maule", "Valle del Maipo"],
+    "maridajes_recomendados": [
+      "Bife de chorizo",
+      "Empanadas",
+      "Asado argentino",
+      "Quesos azules suaves",
+      "Pastas rellenas"
+    ],
+    "temperatura_servicio_celsius": "16-18",
+    "potencial_guarda_anios": "5-10",
+    "decantar": true,
+    "rango_precio_clp": "6000-30000",
+    "tip_sommelier": "Los Malbec chilenos suelen ser más frescos y menos opulentos que los argentinos."
+  },
+  {
+    "id": "cabernet-franc",
+    "nombre": "Cabernet Franc",
+    "tipo": "tinto",
+    "origen": "Burdeos, Francia",
+    "historia_chile": "Tradicionalmente usado para mezclas, en años recientes se elaboran versiones varietales de gran calidad.",
+    "caracteristicas_sensoriales": [
+      "Notas vegetales (pimiento, hojas de tabaco)",
+      "Frutos rojos frescos",
+      "Toques especiados",
+      "Taninos elegantes",
+      "Cuerpo medio"
+    ],
+    "regiones_principales": ["Valle de Colchagua", "Valle del Maipo", "Valle de Cachapoal"],
+    "maridajes_recomendados": [
+      "Carnes rojas magras",
+      "Pato a la naranja",
+      "Pimientos rellenos",
+      "Quesos de cabra"
+    ],
+    "temperatura_servicio_celsius": "16-18",
+    "potencial_guarda_anios": "5-10",
+    "decantar": true,
+    "rango_precio_clp": "10000-45000",
+    "tip_sommelier": "Cepa elegante que aporta finura y notas únicas a las mezclas bordelesas."
+  },
+  {
+    "id": "sauvignon-blanc",
+    "nombre": "Sauvignon Blanc",
+    "tipo": "blanco",
+    "origen": "Valle del Loira, Francia",
+    "historia_chile": "Se ha consolidado como uno de los blancos emblemáticos de Chile, especialmente en valles costeros fríos.",
+    "caracteristicas_sensoriales": [
+      "Notas cítricas (pomelo, lima)",
+      "Hierba fresca y espárragos",
+      "Mineralidad marina",
+      "Acidez vibrante",
+      "Cuerpo ligero"
+    ],
+    "regiones_principales": ["Valle de Casablanca", "Valle de San Antonio", "Valle de Leyda", "Valle de Limarí"],
+    "maridajes_recomendados": [
+      "Ceviche",
+      "Mariscos frescos",
+      "Ensaladas con vinagretas cítricas",
+      "Pescados blancos a la plancha",
+      "Quesos frescos de cabra"
+    ],
+    "temperatura_servicio_celsius": "8-10",
+    "potencial_guarda_anios": "2-4",
+    "decantar": false,
+    "rango_precio_clp": "4000-20000",
+    "tip_sommelier": "Los Sauvignon Blanc del Valle de Leyda tienen una mineralidad marina ideal con mariscos."
+  },
+  {
+    "id": "chardonnay",
+    "nombre": "Chardonnay",
+    "tipo": "blanco",
+    "origen": "Borgoña, Francia",
+    "historia_chile": "Cepa muy versátil que se adapta tanto a versiones frescas como a vinos con barrica de mayor complejidad.",
+    "caracteristicas_sensoriales": [
+      "Frutas tropicales (piña, mango) en versiones cálidas",
+      "Manzana verde y cítricos en versiones frescas",
+      "Notas de mantequilla y vainilla con barrica",
+      "Cuerpo medio a alto",
+      "Acidez equilibrada"
+    ],
+    "regiones_principales": ["Valle de Casablanca", "Valle de Limarí", "Valle de San Antonio"],
+    "maridajes_recomendados": [
+      "Salmón con salsa de mantequilla",
+      "Pollo cremoso",
+      "Pasta con salsa Alfredo",
+      "Mariscos al horno",
+      "Quesos cremosos"
+    ],
+    "temperatura_servicio_celsius": "10-12",
+    "potencial_guarda_anios": "3-7",
+    "decantar": false,
+    "rango_precio_clp": "5000-40000",
+    "tip_sommelier": "Los Chardonnay de Limarí destacan por su mineralidad calcárea, similar a los Chablis."
+  },
+  {
+    "id": "riesling",
+    "nombre": "Riesling",
+    "tipo": "blanco",
+    "origen": "Alemania",
+    "historia_chile": "Cepa minoritaria pero con expresiones interesantes en valles del sur con clima fresco.",
+    "caracteristicas_sensoriales": [
+      "Notas de manzana verde y durazno",
+      "Toques florales y de miel",
+      "Mineralidad pétrea",
+      "Acidez muy alta",
+      "Cuerpo ligero"
+    ],
+    "regiones_principales": ["Valle del Bío-Bío", "Valle de Malleco"],
+    "maridajes_recomendados": [
+      "Comida asiática (sushi, thai)",
+      "Cerdo con salsas dulces",
+      "Quesos azules",
+      "Tartas de fruta"
+    ],
+    "temperatura_servicio_celsius": "8-10",
+    "potencial_guarda_anios": "3-8",
+    "decantar": false,
+    "rango_precio_clp": "7000-25000",
+    "tip_sommelier": "Su acidez y notas cítricas lo hacen perfecto para platos picantes y especiados."
+  },
+  {
+    "id": "viognier",
+    "nombre": "Viognier",
+    "tipo": "blanco",
+    "origen": "Valle del Ródano, Francia",
+    "historia_chile": "Cepa aromática que se ha adaptado bien a varios valles chilenos.",
+    "caracteristicas_sensoriales": [
+      "Aromas intensos a damasco y durazno",
+      "Notas florales (jazmín, azahar)",
+      "Cuerpo medio a alto",
+      "Acidez moderada",
+      "Final untuoso"
+    ],
+    "regiones_principales": ["Valle de Colchagua", "Valle de Casablanca"],
+    "maridajes_recomendados": [
+      "Curry suave",
+      "Pollo con frutas",
+      "Cerdo agridulce",
+      "Quesos cremosos",
+      "Cocina india"
+    ],
+    "temperatura_servicio_celsius": "10-12",
+    "potencial_guarda_anios": "2-5",
+    "decantar": false,
+    "rango_precio_clp": "8000-25000",
+    "tip_sommelier": "Excelente alternativa al Chardonnay para quienes buscan vinos más aromáticos."
+  },
+  {
+    "id": "gewurztraminer",
+    "nombre": "Gewürztraminer",
+    "tipo": "blanco",
+    "origen": "Alsacia, Francia",
+    "historia_chile": "Cepa de nicho con presencia limitada pero creciente.",
+    "caracteristicas_sensoriales": [
+      "Notas exóticas (lichi, rosas, jengibre)",
+      "Toques especiados",
+      "Cuerpo medio",
+      "Acidez moderada",
+      "Final ligeramente dulce"
+    ],
+    "regiones_principales": ["Valle de Casablanca", "Valle del Bío-Bío"],
+    "maridajes_recomendados": [
+      "Cocina tailandesa picante",
+      "Foie gras",
+      "Quesos muy aromáticos",
+      "Postres con frutas tropicales"
+    ],
+    "temperatura_servicio_celsius": "8-10",
+    "potencial_guarda_anios": "2-4",
+    "decantar": false,
+    "rango_precio_clp": "8000-20000",
+    "tip_sommelier": "Vino de carácter, ideal para sorprender en una cata o con cocina muy especiada."
+  },
+  {
+    "id": "cinsault",
+    "nombre": "Cinsault",
+    "tipo": "tinto",
+    "origen": "Sur de Francia",
+    "historia_chile": "Cepa antigua que vive un renacer en el secano interior junto con la cepa País.",
+    "caracteristicas_sensoriales": [
+      "Frutos rojos frescos",
+      "Notas florales",
+      "Cuerpo ligero",
+      "Acidez vibrante",
+      "Taninos muy suaves"
+    ],
+    "regiones_principales": ["Valle del Itata", "Valle del Maule"],
+    "maridajes_recomendados": [
+      "Charcutería",
+      "Pizzas",
+      "Quesos suaves",
+      "Pasta liviana",
+      "Comida mediterránea"
+    ],
+    "temperatura_servicio_celsius": "12-14",
+    "potencial_guarda_anios": "2-5",
+    "decantar": false,
+    "rango_precio_clp": "5000-18000",
+    "tip_sommelier": "Sirve ligeramente fresco, casi como un tinto de verano."
+  },
+  {
+    "id": "espumante",
+    "nombre": "Espumante (mezcla tradicional)",
+    "tipo": "espumante",
+    "origen": "Champagne, Francia (método)",
+    "historia_chile": "Chile produce espumantes de calidad creciente, principalmente con cepas Chardonnay y Pinot Noir, en valles fríos.",
+    "caracteristicas_sensoriales": [
+      "Burbujas finas y persistentes",
+      "Notas cítricas y de manzana",
+      "Toques de pan tostado en versiones con crianza",
+      "Acidez alta",
+      "Final fresco"
+    ],
+    "regiones_principales": ["Valle de Casablanca", "Valle de Limarí", "Valle del Bío-Bío"],
+    "maridajes_recomendados": [
+      "Aperitivos",
+      "Ostras y mariscos",
+      "Sushi",
+      "Pollo frito",
+      "Postres no muy dulces"
+    ],
+    "temperatura_servicio_celsius": "6-8",
+    "potencial_guarda_anios": "2-5",
+    "decantar": false,
+    "rango_precio_clp": "8000-50000",
+    "tip_sommelier": "Un buen espumante chileno marida prácticamente con cualquier comida, es el comodín perfecto."
+  }
+]

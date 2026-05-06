@@ -1,0 +1,208 @@
+{
+  "temperaturas_servicio": [
+    {
+      "id": "espumante",
+      "tipo_vino": "Espumantes y Champagne",
+      "temperatura_celsius": "6-8",
+      "razon": "El frío preserva las burbujas y la frescura. Demasiado frío anula los aromas.",
+      "como_enfriar": "30 minutos en hielera con agua y hielo, o 3-4 horas en refrigerador."
+    },
+    {
+      "id": "blanco-ligero",
+      "tipo_vino": "Blancos ligeros y aromáticos",
+      "ejemplos": ["Sauvignon Blanc", "Riesling", "Gewürztraminer"],
+      "temperatura_celsius": "8-10",
+      "razon": "Realza la acidez y los aromas frescos cítricos y florales.",
+      "como_enfriar": "2-3 horas en refrigerador antes de servir."
+    },
+    {
+      "id": "blanco-cuerpo",
+      "tipo_vino": "Blancos con cuerpo y crianza",
+      "ejemplos": ["Chardonnay con barrica", "Viognier"],
+      "temperatura_celsius": "10-12",
+      "razon": "Permite expresar mejor las notas mantecosas y de roble sin perder frescura.",
+      "como_enfriar": "1-2 horas en refrigerador."
+    },
+    {
+      "id": "rose",
+      "tipo_vino": "Rosados",
+      "temperatura_celsius": "8-10",
+      "razon": "Frescos como blancos pero con un poco más de cuerpo.",
+      "como_enfriar": "2 horas en refrigerador."
+    },
+    {
+      "id": "tinto-ligero",
+      "tipo_vino": "Tintos ligeros",
+      "ejemplos": ["Pinot Noir", "Cinsault", "País joven"],
+      "temperatura_celsius": "14-16",
+      "razon": "Frescos pero no tan fríos como los blancos. Resaltan su frescura frutal.",
+      "como_enfriar": "30 minutos en refrigerador antes de servir."
+    },
+    {
+      "id": "tinto-medio",
+      "tipo_vino": "Tintos de cuerpo medio",
+      "ejemplos": ["Merlot", "Carménère joven"],
+      "temperatura_celsius": "15-17",
+      "razon": "Punto óptimo entre frescura y expresión aromática.",
+      "como_enfriar": "15-20 minutos en refrigerador."
+    },
+    {
+      "id": "tinto-robusto",
+      "tipo_vino": "Tintos robustos y de guarda",
+      "ejemplos": ["Cabernet Sauvignon", "Syrah", "Carménère reserva"],
+      "temperatura_celsius": "16-18",
+      "razon": "Permite que los aromas complejos se expresen sin que el alcohol se vuelva agresivo.",
+      "como_enfriar": "Servir a temperatura ambiente fresca, nunca caliente. Si está sobre 20°C, 10 min en refrigerador."
+    },
+    {
+      "id": "vino-dulce",
+      "tipo_vino": "Vinos dulces y cosecha tardía",
+      "temperatura_celsius": "8-10",
+      "razon": "El frío equilibra la dulzura y resalta la acidez.",
+      "como_enfriar": "2 horas en refrigerador."
+    }
+  ],
+  "tipos_copas": [
+    {
+      "id": "copa-tinto",
+      "nombre": "Copa de tinto (tipo Burdeos)",
+      "caracteristicas": "Alta y amplia, con boca ligeramente cerrada.",
+      "para_que_sirve": "Permite que los tintos robustos respiren y concentra los aromas hacia la nariz.",
+      "vinos_recomendados": ["Cabernet Sauvignon", "Carménère", "Syrah", "Malbec"]
+    },
+    {
+      "id": "copa-borgona",
+      "nombre": "Copa Borgoña",
+      "caracteristicas": "Más ancha y redonda, con boca cerrada.",
+      "para_que_sirve": "Diseñada para vinos delicados y aromáticos, dirigiendo el vino al centro de la lengua.",
+      "vinos_recomendados": ["Pinot Noir", "Chardonnay con crianza"]
+    },
+    {
+      "id": "copa-blanco",
+      "nombre": "Copa de blanco",
+      "caracteristicas": "Más pequeña y estilizada que la de tinto.",
+      "para_que_sirve": "Mantiene el vino frío por más tiempo y concentra aromas frescos.",
+      "vinos_recomendados": ["Sauvignon Blanc", "Riesling", "Chardonnay sin barrica"]
+    },
+    {
+      "id": "copa-flauta",
+      "nombre": "Copa Flauta (Champagne)",
+      "caracteristicas": "Alta, estrecha y alargada.",
+      "para_que_sirve": "Preserva las burbujas y permite admirar el desprendimiento de las mismas.",
+      "vinos_recomendados": ["Espumantes", "Champagne", "Cava"]
+    },
+    {
+      "id": "copa-postre",
+      "nombre": "Copa de vinos dulces",
+      "caracteristicas": "Pequeña, similar a una copa de licor pero más estilizada.",
+      "para_que_sirve": "Las porciones de vinos dulces son menores debido a su intensidad.",
+      "vinos_recomendados": ["Cosecha tardía", "Oporto", "Vinos dulces"]
+    }
+  ],
+  "orden_degustacion": [
+    {
+      "regla": "De los vinos más jóvenes a los más añejos",
+      "razon": "Para apreciar la complejidad creciente con el tiempo de guarda."
+    },
+    {
+      "regla": "De los más ligeros a los más robustos",
+      "razon": "Un vino robusto opacaría a uno ligero si se prueba después."
+    },
+    {
+      "regla": "De los blancos a los tintos",
+      "razon": "Los blancos preparan el paladar; los tintos lo intensifican."
+    },
+    {
+      "regla": "De los secos a los dulces",
+      "razon": "Los vinos dulces saturan el paladar y dificultan apreciar vinos secos después."
+    },
+    {
+      "regla": "De los menos a los más caros",
+      "razon": "Permite valorar el aumento de calidad y complejidad progresivamente."
+    }
+  ],
+  "como_catar": {
+    "fase_1_vista": {
+      "nombre": "Examen visual",
+      "que_observar": [
+        "Color: paja, dorado, ámbar (blancos); rubí, granate, teja (tintos)",
+        "Intensidad: claro, medio, profundo",
+        "Limpidez: brillante, opaco",
+        "Ribete: el borde del vino indica edad"
+      ],
+      "tip": "Inclina la copa sobre fondo blanco para apreciar mejor el color."
+    },
+    "fase_2_olfato": {
+      "nombre": "Examen olfativo",
+      "que_observar": [
+        "Aromas primarios: frutas, flores, hierbas (provienen de la uva)",
+        "Aromas secundarios: pan, mantequilla, levadura (de la fermentación)",
+        "Aromas terciarios: cuero, tabaco, cacao (de la crianza)"
+      ],
+      "tip": "Primero huele sin agitar la copa, luego agita y vuelve a oler para captar más aromas."
+    },
+    "fase_3_gusto": {
+      "nombre": "Examen gustativo",
+      "que_observar": [
+        "Ataque: primera sensación al beber",
+        "Cuerpo: peso del vino en la boca",
+        "Acidez, taninos y dulzor: balance entre estos elementos",
+        "Persistencia: cuántos segundos permanece el sabor (vinos buenos: 8+ segundos)"
+      ],
+      "tip": "Toma un sorbo pequeño, mantén el vino en la boca unos segundos y respira por la nariz para captar todos los matices."
+    }
+  },
+  "conservacion": [
+    {
+      "id": "botella-cerrada",
+      "situacion": "Botella cerrada",
+      "recomendacion": "Guardar acostada, en lugar fresco (12-15°C), oscuro y con humedad estable.",
+      "por_que": "La posición horizontal mantiene húmedo el corcho, evitando que se seque y entre aire."
+    },
+    {
+      "id": "botella-abierta-tinto",
+      "situacion": "Botella de tinto abierta",
+      "recomendacion": "Volver a tapar y refrigerar. Consumir dentro de 3-5 días.",
+      "por_que": "El refrigerador frena la oxidación; sacar 30 minutos antes de servir."
+    },
+    {
+      "id": "botella-abierta-blanco",
+      "situacion": "Botella de blanco abierta",
+      "recomendacion": "Refrigerar bien tapada. Consumir dentro de 2-3 días.",
+      "por_que": "Los blancos se oxidan más rápido que los tintos."
+    },
+    {
+      "id": "botella-abierta-espumante",
+      "situacion": "Botella de espumante abierta",
+      "recomendacion": "Usar tapón especial para espumantes y refrigerar. Idealmente consumir el mismo día o al siguiente.",
+      "por_que": "Las burbujas se pierden rápidamente al contacto con el aire."
+    }
+  ],
+  "tips_servicio": [
+    {
+      "id": "cantidad-copa",
+      "tip": "Servir solo un tercio de la copa",
+      "razon": "Permite girar el vino para liberar aromas sin derramar."
+    },
+    {
+      "id": "presentacion-botella",
+      "tip": "Mostrar la etiqueta al servir",
+      "razon": "Es protocolo y permite confirmar que es la botella solicitada."
+    },
+    {
+      "id": "abrir-vino",
+      "tip": "Cortar la cápsula bajo el segundo anillo del cuello",
+      "razon": "Estéticamente más prolijo y evita que el vino toque el aluminio al servir."
+    },
+    {
+      "id": "vinos-viejos",
+      "tip": "Mantener vinos viejos parados 24h antes de abrir",
+      "razon": "Permite que el sedimento baje al fondo de la botella."
+    },
+    {
+      "id": "decantacion-tiempo",
+      "tip": "Decantar tintos jóvenes 30-60 min, viejos solo 15 min",
+      "razon": "Los jóvenes ganan con aireación; los viejos se pueden oxidar rápido."
+    }
+  ]
+}
