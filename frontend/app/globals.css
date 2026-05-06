@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+
+
+:root {
+  /* Paleta vino */
+  --wine-950: #1a0508;
+  --wine-900: #2d0a10;
+  --wine-800: #4a1020;
+  --wine-700: #6b1a30;
+  --wine-600: #8b2040;
+  --wine-500: #a83255;
+  --wine-400: #c4546f;
+  --wine-300: #d98090;
+  --wine-200: #ebb0b8;
+  --wine-100: #f5dde0;
+  --wine-50:  #fdf3f4;
+
+  /* Dorado */
+  --gold-600: #a07830;
+  --gold-500: #c49a3c;
+  --gold-400: #d4af5a;
+  --gold-300: #e2c87a;
+  --gold-100: #f7edd0;
+
+  /* Neutros cálidos */
+  --cream-100: #fdf8f2;
+  --cream-200: #f5edd8;
+  --cream-300: #e8d9bc;
+  --charcoal:  #2c2420;
+  --muted:     #7a6860;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cream-100);
+  color: var(--charcoal);
+  font-family: var(--font-body), sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tipografía de display */
+.font-display {
+  font-family: var(--font-display), serif;
+}
+
+/* Divisor decorativo */
+.divider-wine {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--gold-500);
+}
+
+.divider-wine::before,
+.divider-wine::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gold-300), transparent);
+}
+
+/* Animación fade-up para la landing */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.7s ease forwards;
+}
+
+.animate-fade-up-delay-1 { animation-delay: 0.1s; opacity: 0; animation-fill-mode: forwards; animation-name: fadeUp; animation-duration: 0.7s; }
+.animate-fade-up-delay-2 { animation-delay: 0.2s; opacity: 0; animation-fill-mode: forwards; animation-name: fadeUp; animation-duration: 0.7s; }
+.animate-fade-up-delay-3 { animation-delay: 0.3s; opacity: 0; animation-fill-mode: forwards; animation-name: fadeUp; animation-duration: 0.7s; }
+.animate-fade-up-delay-4 { animation-delay: 0.4s; opacity: 0; animation-fill-mode: forwards; animation-name: fadeUp; animation-duration: 0.7s; }
+.animate-fade-up-delay-5 { animation-delay: 0.5s; opacity: 0; animation-fill-mode: forwards; animation-name: fadeUp; animation-duration: 0.7s; }
+
+/* Cursor parpadeante del chat */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}

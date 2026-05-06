@@ -2,17 +2,17 @@ import {
   Controller,
   Post,
   Body,
-  Sse,
   Logger,
   ValidationPipe,
   UsePipes,
+  HttpCode,
+  Res,
 } from '@nestjs/common';
-import { Observable, map } from 'rxjs';
+import type { Response } from 'express';
 import { IsString, IsArray, IsOptional, ValidateNested } from 'class-validator';
 import { Type } from 'class-transformer';
-import { ChatService, ChatResponse } from './chat.service';
+import { ChatService } from './chat.service';
 import { ChatMessage } from './rag/prompt.service';
-
 
 class ChatMessageDto implements ChatMessage {
   @IsString()
@@ -41,19 +41,36 @@ export class ChatController {
   constructor(private readonly chatService: ChatService) {}
 
   @Post()
-  @Sse()
+  @HttpCode(200)
   @UsePipes(new ValidationPipe({ transform: true }))
-  chat(@Body() body: ChatRequestDto): Observable<MessageEvent> {
+  async chat(
+    @Body() body: ChatRequestDto,
+    @Res() res: Response,
+  ): Promise<void> {
     const { message, history = [] } = body;
 
     this.logger.log(`Nueva query: "${message.substring(0, 50)}..."`);
 
-    return this.chatService.chat(message, history).pipe(
-      map((response: ChatResponse) => {
-        return {
-          data: response,
-        } as MessageEvent;
-      }),
-    );
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Connection', 'keep-alive');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.flushHeaders();
+
+    const stream$ = this.chatService.chat(message, history);
+
+    stream$.subscribe({
+      next: (event) => {
+        res.write(`data: ${JSON.stringify(event)}\n\n`);
+      },
+      error: (err) => {
+        this.logger.error('Error en stream:', err);
+        res.write(`data: ${JSON.stringify({ type: 'error', content: 'Error interno' })}\n\n`);
+        res.end();
+      },
+      complete: () => {
+        res.end();
+      },
+    });
   }
 }
