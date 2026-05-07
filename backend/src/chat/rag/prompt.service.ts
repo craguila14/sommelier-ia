@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Document } from 'langchain/document';
+import { Document } from '@langchain/core/documents';
 
 export interface ChatMessage {
   role: 'user' | 'assistant';

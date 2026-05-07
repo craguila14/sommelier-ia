@@ -3,7 +3,7 @@ import { ConfigService } from '@nestjs/config';
 import { OpenAIEmbeddings } from '@langchain/openai';
 import { PineconeStore } from '@langchain/pinecone';
 import { Pinecone } from '@pinecone-database/pinecone';
-import { Document } from 'langchain/document';
+import { Document } from '@langchain/core/documents';
 
 
 @Injectable()
